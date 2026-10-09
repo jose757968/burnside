@@ -1,0 +1,154 @@
+.email-landing .container {
+  width: 900px; }
+  @media (max-width: 900px) {
+    .email-landing .container {
+      width: 100%; } }
+.email-landing header {
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 700px) {
+    .email-landing header img {
+      width: 70%; } }
+.email-landing main .hero-block {
+  display: flex;
+  background-color: #253C80;
+  color: white;
+  padding: 20px; }
+  @media (max-width: 900px) {
+    .email-landing main .hero-block {
+      flex-direction: column; } }
+  .email-landing main .hero-block .content {
+    width: 50%;
+    padding: 0 50px 0 0; }
+    @media (max-width: 900px) {
+      .email-landing main .hero-block .content {
+        width: 100%; } }
+    .email-landing main .hero-block .content h1 {
+      font-size: 20px;
+      color: white; }
+    .email-landing main .hero-block .content p {
+      font-size: 16px;
+      line-height: 1.5; }
+.email-landing main .form-wrapper {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -60px;
+  width: 50%; }
+  @media (max-width: 900px) {
+    .email-landing main .form-wrapper {
+      width: 80%;
+      margin: 0 auto; } }
+  @media (max-width: 700px) {
+    .email-landing main .form-wrapper {
+      width: 100%; } }
+  .email-landing main .form-wrapper h2 {
+    color: #253C80;
+    font-size: 16px;
+    text-align: center; }
+  .email-landing main .form-wrapper form.wpcf7-form {
+    display: flex;
+    flex-wrap: wrap; }
+  .email-landing main .form-wrapper .labelwrap {
+    width: 40%;
+    margin-top: 6px;
+    color: #253C80; }
+    @media (max-width: 480px) {
+      .email-landing main .form-wrapper .labelwrap {
+        width: 100%; } }
+  .email-landing main .form-wrapper .form-item {
+    width: 60%; }
+    @media (max-width: 480px) {
+      .email-landing main .form-wrapper .form-item {
+        width: 100%; } }
+  .email-landing main .form-wrapper .labelwrap.wide {
+    width: 100%;
+    margin-top: 3px; }
+  .email-landing main .form-wrapper .form-item-wide {
+    width: 100%; }
+  .email-landing main .form-wrapper label {
+    color: #253C80; }
+  .email-landing main .form-wrapper input {
+    margin-bottom: 5px !important; }
+.email-landing .page-content {
+  margin: 30px 0; }
+  .email-landing .page-content h2 {
+    font-size: 16px;
+    color: #253C80; }
+.email-landing footer {
+  display: flex;
+  justify-content: space-around; }
+  @media (max-width: 700px) {
+    .email-landing footer {
+      flex-wrap: wrap; } }
+
+.loan-calculator .container {
+  max-width: 1200px;
+  width: 100%; }
+.loan-calculator h1 {
+  padding-top: 2rem;
+  text-align: center; }
+.loan-calculator .calculator-wrap {
+  display: flex;
+  width: 100%; }
+  @media (max-width: 900px) {
+    .loan-calculator .calculator-wrap {
+      flex-wrap: wrap; } }
+  .loan-calculator .calculator-wrap .calculator {
+    width: 50%;
+    padding: 20px; }
+    @media (max-width: 900px) {
+      .loan-calculator .calculator-wrap .calculator {
+        width: 100%; } }
+    .loan-calculator .calculator-wrap .calculator h2 {
+      margin: 9px 0 18px 0; }
+  .loan-calculator .calculator-wrap .results {
+    width: 50%;
+    padding: 20px; }
+    @media (max-width: 900px) {
+      .loan-calculator .calculator-wrap .results {
+        width: 100%; } }
+    .loan-calculator .calculator-wrap .results .form-item {
+      padding-bottom: 3px; }
+    .loan-calculator .calculator-wrap .results form.wpcf7-form p {
+      margin: 0; }
+  .loan-calculator .calculator-wrap .monthly-payments p {
+    text-align: center;
+    font-weight: bold; }
+  .loan-calculator .calculator-wrap .monthly-payments .res_amount {
+    font-size: 4rem;
+    line-height: 1; }
+  .loan-calculator .calculator-wrap .monthly-payments .interest {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold; }
+  .loan-calculator .calculator-wrap #lidd_mc_details {
+    display: none !important; }
+  .loan-calculator .calculator-wrap hr {
+    margin: 10px 0; }
+.loan-calculator .benefits h2 {
+  text-align: center;
+  margin-top: 2rem; }
+.loan-calculator .benefits .benefit-wrap {
+  display: flex;
+  width: 100%; }
+  @media (max-width: 900px) {
+    .loan-calculator .benefits .benefit-wrap {
+      flex-wrap: wrap; } }
+.loan-calculator .benefits .benefit-wrap .benefit {
+  width: 33.3333%;
+  padding: 20px;
+  text-align: center; }
+  .loan-calculator .benefits .benefit-wrap .benefit img {
+    max-width: 100%; }
+  @media (max-width: 900px) {
+    .loan-calculator .benefits .benefit-wrap .benefit {
+      width: 100%; } }
+.loan-calculator a.button.contact {
+  display: block;
+  width: 200px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 auto 4rem auto; }
+
+/*# sourceMappingURL=additional.css.map */
